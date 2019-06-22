@@ -1,0 +1,42 @@
+.bring-to-front{
+  position: relative;
+  z-index: 2;
+}
+
+.breadcrumbs{
+  background-color: #f9f9f9;
+
+  .breadcrumb-box{
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0;
+  }
+  .links{
+    font-family: $mainFont;
+    font-size: 12px;
+    letter-spacing: 0.52px;
+    color: $mainBlue;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 0px;
+    line-height: 20px;
+  }
+
+  .current-page{
+    font-family: $mainFont;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.52px;
+    color: $mainBlue;
+    margin:0px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+
+  img{
+    padding: 0 15px;
+    height: 20px; 
+    width: auto;
+  }
+}

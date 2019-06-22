@@ -1,0 +1,49 @@
+
+
+.about-us-content{
+  padding: 65px 0 100px;
+  max-width: 869px;
+  margin: auto;
+  h1{
+    font-family: $mainFont;
+    font-size: 82px;
+    font-weight: 600;
+    letter-spacing: 0.52px;
+    color: $mainBlue;
+    margin-bottom: 40px;
+  }
+
+  h4{
+    font-family: $mainFont;
+    font-size: 28px;
+    letter-spacing: 0.52px;
+    color: #525f7f;
+    margin-bottom: 20px;
+    line-height: 38px;
+  }
+
+  p, li{
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1.1px;
+    color: #525f7f;
+    margin-bottom: 20px;
+  }
+
+  ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .sub-heading{
+    text-transform: uppercase;
+    font-family: $mainFont;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.52px;
+    color: $mainBlue;
+    padding: 15px 0;
+  }
+ 
+}

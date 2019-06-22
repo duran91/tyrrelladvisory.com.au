@@ -1,0 +1,53 @@
+
+.services-content{
+  padding: 65px 0 100px;
+  max-width: 869px;
+  margin: auto;
+  h1{
+    font-family: $mainFont;
+    font-size: 82px;
+    font-weight: 600;
+    letter-spacing: 0.52px;
+    color: $mainBlue;
+    margin-bottom: 40px;
+    margin-top: -30px;
+  }
+  .sub-heading{
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.52px;
+    color: $mainBlue;
+    text-transform: uppercase;
+  }
+  .long-heading{
+    font-size: 42px;
+  }
+  .medium-heading{
+    font-size: 60px;
+  }
+
+  h4{
+    font-family: $mainFont;
+    font-size: 28px;
+    letter-spacing: 0.52px;
+    color: #525f7f;
+    margin-bottom: 20px;
+    line-height: 38px;
+  }
+
+  p, li{
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1.1px;
+    color: #525f7f;
+    margin-bottom: 20px;
+  }
+
+  ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+ 
+}

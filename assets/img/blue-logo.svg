@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103" height="33" viewBox="0 0 103 33">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#FFF7BB" font-family="GillSans, Gill Sans" font-size="25" letter-spacing=".926" transform="translate(0 -5)">
+            <tspan x="0" y="23">TYRRELL</tspan>
+        </text>
+        <text fill="#FFF7BB" font-family="GillSans, Gill Sans" font-size="13" letter-spacing=".738" transform="translate(0 20)">
+            <tspan x="19" y="12">ADVISORY</tspan>
+        </text>
+        <path stroke="#FFF7BB" stroke-linecap="square" d="M.5 28h11M91.5 28h11"/>
+    </g>
+</svg>

@@ -1,0 +1,94 @@
+.footer{
+  background-color: $mainBlue;
+  padding-top: 60px;
+
+
+  .footer-links{
+    display: flex;
+    justify-content: space-between;
+
+    h4{
+      text-transform: uppercase;
+      font-family: $mainFont;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.7px;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+
+    p{
+      margin-right: 100px;
+      color: white;
+      font-family: $mainFont;
+      font-weight: 200;
+      line-height: 25px;
+    }
+
+    .top-spacer{
+      padding-top: 41px;
+    }
+
+    .row-split{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .footer-contact{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-logo{
+      height: 55px;
+      width: auto;
+    }
+
+    .footer-phone{
+      font-family: $mainFont;
+      font-size: 24px;
+      letter-spacing: 1.1px;
+      color: $mainGold;
+      text-align: end;
+    }
+
+    .footer-address{
+      font-family: $mainFont;
+      font-size: 20px;
+      letter-spacing: 1.1px;
+      color: $mainGold;
+      text-align: end;
+    }
+
+    .footer-business{
+      font-family: $mainFont;
+      font-size: 11px;
+      letter-spacing: 1.1px;
+      color: $mainGold;
+      text-align: end;
+    }
+  }
+
+  .footer-line{
+    height: 1px;
+    background-color: $mainGold;
+    width: 100%;
+  }
+
+  .footer-copyright{
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: flex-start;
+
+    p{
+      font-family: $mainFont;
+      font-size: 10px;
+      letter-spacing: 0.7px;
+      color: #ffffff;
+      font-weight: 100;
+    }
+  }
+}
