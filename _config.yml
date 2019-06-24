@@ -2,3 +2,4 @@ exclude: [".gitignore", "*.sublime-*"]
 sass:
     style: compressed
 
+base_url: "/example"
