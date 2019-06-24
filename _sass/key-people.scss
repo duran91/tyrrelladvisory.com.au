@@ -49,9 +49,12 @@
   .background-box{
     padding: 60px 0;
 
+    .minimised-content{
+      height: 220px;
+    }
+
     .background-content{
       max-width: 869px;
-      height: 220px;
       overflow: hidden;
       position: relative;
 

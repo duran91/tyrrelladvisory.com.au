@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>phone-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Key-People" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-60.000000, -530.000000)" fill="#E5D698" fill-rule="nonzero">
+            <g id="Heading" transform="translate(60.000000, 188.000000)">
+                <g id="Contact-Information" transform="translate(0.000000, 342.000000)">
+                    <g id="phone-solid">
+                        <path d="M28.9101784,1.44200942 L22.8165524,0.0357891178 C22.1544565,-0.116551415 21.4747828,0.229144409 21.205257,0.850225041 L18.3928143,7.41258644 C18.1467255,7.98679306 18.3107847,8.66060695 18.7971029,9.05317679 L22.3478119,11.9593654 C20.2384798,16.4534111 16.5530079,20.1916134 11.9652106,22.3419586 L9.05901976,18.7912524 C8.66059037,18.3049345 7.9926352,18.1408755 7.41842813,18.386964 L0.856061635,21.1994046 C0.229121264,21.4747894 -0.116574828,22.1544626 0.0357658229,22.816558 L1.44198722,28.9101793 C1.58846861,29.5429784 2.15095717,30 2.81305307,30 C17.8186072,30 30,17.8420537 30,2.81307421 C30,2.15683807 29.5488373,1.5884907 28.9101784,1.44200942 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

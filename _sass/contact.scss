@@ -1,0 +1,118 @@
+
+
+.contact-content{
+  padding: 65px 0 100px;
+  max-width: 869px;
+  margin: auto;
+  h1{
+    font-family: $mainFont;
+    font-size: 82px;
+    font-weight: 600;
+    letter-spacing: 0.52px;
+    color: $mainBlue;
+    margin-bottom: 40px;
+  }
+
+  h4{
+    font-family: $mainFont;
+    font-size: 28px;
+    letter-spacing: 0.52px;
+    color: #525f7f;
+    margin-bottom: 20px;
+    line-height: 38px;
+  }
+
+  p, li{
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1.1px;
+    color: #525f7f;
+    margin-bottom: 20px;
+  }
+
+  ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .sub-heading{
+    font-family: $mainFont;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.11px;
+    color: $mainBlue;
+    text-align: right;
+    font-weight: 600;
+    margin: 0px;
+  }
+
+  .number{
+    font-family: $mainFont;
+    font-size: 40px;
+    letter-spacing: 1.11px;
+    color: $mainBlue;
+    text-align: right;
+    font-weight: 200;
+    margin-bottom: 36px;
+  }
+
+  .contact-category{
+    font-family: $mainFont;
+    font-size: 30px;
+    letter-spacing: 0.83px;
+    text-align: right;
+    color: $mainBlue;
+  }
+
+  .contact-form{
+    input{
+      display: block;
+      width: 100%;
+      max-width: 433px;
+      margin-bottom: 37px;
+      padding: 10px;
+      font-style: $mainFont;
+      color: $mainBlue;
+      border: solid 1px $mainBlue;
+
+      &::placeholder{
+        font-style: $mainFont;
+        color: #525f7f;
+        font-weight: 200;
+      }
+
+      &:focus{
+        outline: none;
+      }
+    }
+    textarea{
+      border: solid 1px $mainBlue;
+      width: 100%;
+      max-width: 433px;
+      margin-bottom: 37px;
+      padding: 10px;
+      color: $mainBlue;
+      font-style: $mainFont;
+      &::placeholder{
+        font-style: $mainFont;
+        color: #525f7f;
+        font-weight: 200;
+      }
+      &:focus{
+        outline: none;
+      }
+    }
+
+    .form-submit{
+      cursor: pointer;
+      background-color: $mainBlue;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-family: $mainFont;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+  }
+ 
+}
