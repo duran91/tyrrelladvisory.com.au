@@ -2,6 +2,13 @@
   background-color: $mainBlue;
   height: 84px;
 
+  .navbar-brand{
+    img{
+      height: 40px;
+      width: auto;
+    }
+  }
+
   .navbar-nav{
     display: flex;
     align-items: center;
