@@ -50,3 +50,17 @@
 .rotate{
   transform: rotate(180deg);
 }
+
+a{
+  text-decoration: none;
+  outline: none;
+
+  &:hover{
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}

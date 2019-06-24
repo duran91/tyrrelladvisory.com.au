@@ -70,3 +70,37 @@
 .main-nav.js-is-stuck {
 
 }
+
+.dropdown-menu{
+  border-radius: 0px;
+  padding: 0px;
+  margin-top: -2px;
+  border: 1px solid $mainGold;
+
+  .dropdown-item{
+    font-family: $mainFont;
+    font-size: 12px;
+    letter-spacing: 0.47px;
+    color: $mainBlue;
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+
+    &:hover{
+      background-color: #f9f9f9;
+      border: none;
+    }
+  }
+
+  .main-dropdown{
+    background-color: $mainGold;
+    color: $mainBlue;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    &:hover{
+      background-color: $mainGold;
+      text-decoration: underline;      
+    }
+  }
+}
