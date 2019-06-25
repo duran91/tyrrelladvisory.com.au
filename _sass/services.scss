@@ -1,6 +1,6 @@
 
 .services-content{
-  padding: 65px 0 100px;
+  padding: 65px 0 50px;
   max-width: 869px;
   margin: auto;
   h1{
@@ -50,4 +50,57 @@
     padding-bottom: 10px;
   }
  
+}
+
+.services-deal{
+  max-width: 869px;
+  margin: 0 auto 100px;
+  .deal-heading{
+    font-family: $mainFont;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.64px;
+    color: $mainBlue;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  .deal-box{
+    display: flex;
+    margin-bottom: 75px;
+    .brand-image{
+      width: 250px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 0 40px;
+      flex-direction: column;
+      img{
+        max-width: 200px;
+        max-height: 100px;
+      }
+    }
+
+    .deal-title{
+      font-family: $mainFont;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.1px;
+      color: #525f7f;
+      margin-bottom: 20px;
+    }
+
+    .content{
+      max-width: 700px;
+    }
+    .deal-content{
+      font-family: $mainFont;
+      font-size: 16px;
+      font-weight: 200;
+      letter-spacing: 1.1px;
+      color: #525f7f;
+      margin-bottom: 20px;
+    }
+  }
 }
