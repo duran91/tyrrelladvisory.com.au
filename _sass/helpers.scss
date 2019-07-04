@@ -4,7 +4,8 @@
 }
 
 .breadcrumbs{
-  background-color: #f9f9f9;
+  background-color: #fff;
+  border-bottom: 1px solid #D8D8D8;
 
   .breadcrumb-box{
     display: flex; 
@@ -63,4 +64,8 @@ a{
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+body{
+  background-color: #f9f9f9;
 }

@@ -52,9 +52,16 @@
  
 }
 
+.service-background{
+  background-color: white;
+  border-top: 1px solid #D8D8D8;
+}
+
 .services-deal{
   max-width: 869px;
-  margin: 0 auto 100px;
+  margin: 0 auto;
+  padding: 100px 0 25px;
+  background-color: #fff;
   .deal-heading{
     font-family: $mainFont;
     font-size: 18px;
