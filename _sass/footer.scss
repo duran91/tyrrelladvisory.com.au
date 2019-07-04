@@ -6,6 +6,9 @@
   .footer-links{
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 768px){
+      flex-direction: column;
+    }
 
     h4{
       text-transform: uppercase;
@@ -15,6 +18,13 @@
       letter-spacing: 0.7px;
       color: #ffffff;
       margin-bottom: 20px;
+      @media screen and (max-width: 768px){
+        margin-top: 20px;
+      }
+      @media screen and (max-width: 768px){
+        margin-right: 0px;
+        text-align: center;
+      }
     }
 
     p{
@@ -23,6 +33,15 @@
       font-family: $mainFont;
       font-weight: 200;
       line-height: 25px;
+
+      @media screen and (max-width: 992px){
+        margin-right: 40px;
+        font-size: 13px;
+      }
+      @media screen and (max-width: 768px){
+        margin-right: 0px;
+        text-align: center;
+      }
     }
 
     .top-spacer{
@@ -32,6 +51,9 @@
     .row-split{
       display: flex;
       flex-direction: row;
+      @media screen and (max-width: 768px){
+        flex-direction: column;
+      }
     }
   }
 
@@ -41,9 +63,16 @@
     justify-content: space-between;
     align-items: center;
 
+    @media screen and (max-width: 768px){
+      flex-direction: column;
+    }
+
     .footer-logo{
       height: 50px;
       width: auto;
+      @media screen and (max-width: 768px){
+        margin-bottom: 50px;
+      }
 
     }
 
@@ -53,6 +82,10 @@
       letter-spacing: 1.1px;
       color: $mainGold;
       text-align: end;
+      @media screen and (max-width: 768px){
+        text-align: center;
+        font-size: 20px;
+      }
     }
 
     .footer-address{
@@ -61,6 +94,10 @@
       letter-spacing: 1.1px;
       color: $mainGold;
       text-align: end;
+      @media screen and (max-width: 768px){
+        text-align: center;
+        font-size: 16px
+      }
     }
 
     .footer-business{
@@ -69,6 +106,9 @@
       letter-spacing: 1.1px;
       color: $mainGold;
       text-align: end;
+      @media screen and (max-width: 768px){
+        text-align: center;
+      }
     }
   }
 
