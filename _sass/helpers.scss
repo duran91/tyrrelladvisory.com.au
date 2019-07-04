@@ -35,6 +35,9 @@
     font-weight: 200;
     margin: 0px;
     line-height: 20px;
+    @media screen and (max-width: 768px){
+      font-size: 10px;
+    }
   }
 
   .current-page{
@@ -46,6 +49,9 @@
     margin:0px;
     line-height: 20px;
     text-transform: uppercase;
+    @media screen and (max-width: 768px){
+      font-size: 10px;
+    }
   }
 
   img{

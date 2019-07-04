@@ -1,4 +1,7 @@
 
+.contact-background{
+  background-color: white;
+}
 
 .contact-content{
   padding: 65px 0 100px;
@@ -11,6 +14,9 @@
     letter-spacing: 0.52px;
     color: $mainBlue;
     margin-bottom: 40px;
+    @media screen and (max-width: 992px){
+      font-size: 40px;
+    }
   }
 
   h4{
@@ -20,6 +26,10 @@
     color: #525f7f;
     margin-bottom: 20px;
     line-height: 38px;
+    @media screen and (max-width: 992px){
+      font-size: 20px;
+      text-align: center;
+    }
   }
 
   p, li{
@@ -29,6 +39,10 @@
     letter-spacing: 1.1px;
     color: #525f7f;
     margin-bottom: 20px;
+    @media screen and (max-width: 992px){
+      font-size: 14px;
+      text-align: center;
+    }
   }
 
   ul{
@@ -45,6 +59,10 @@
     text-align: right;
     font-weight: 600;
     margin: 0px;
+    @media screen and (max-width: 992px){
+      text-align: center;
+      font-size: 16px;
+    }
   }
 
   .number{
@@ -55,6 +73,10 @@
     text-align: right;
     font-weight: 200;
     margin-bottom: 36px;
+    @media screen and (max-width: 992px){
+      font-size: 20px;
+      text-align: center;
+    }
   }
 
   .contact-category{
@@ -63,6 +85,10 @@
     letter-spacing: 0.83px;
     text-align: right;
     color: $mainBlue;
+    @media screen and (max-width: 992px){
+      font-size: 16px;
+      text-align: center;
+    }
   }
 
   .contact-form{
@@ -75,6 +101,9 @@
       font-style: $mainFont;
       color: $mainBlue;
       border: solid 1px $mainBlue;
+      @media screen and (max-width: 992px){
+        margin: 0 auto 37px;
+      }
 
       &::placeholder{
         font-style: $mainFont;
@@ -86,7 +115,9 @@
         outline: none;
       }
     }
+
     textarea{
+      display: block;
       border: solid 1px $mainBlue;
       width: 100%;
       max-width: 433px;
@@ -94,6 +125,9 @@
       padding: 10px;
       color: $mainBlue;
       font-style: $mainFont;
+      @media screen and (max-width: 992px){
+        margin: 0 auto 37px;
+      }
       &::placeholder{
         font-style: $mainFont;
         color: #525f7f;

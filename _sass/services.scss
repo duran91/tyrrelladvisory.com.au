@@ -11,6 +11,10 @@
     color: $mainBlue;
     margin-bottom: 40px;
     margin-top: -30px;
+    @media screen and (max-width: 768px){
+      font-size: 40px;
+      margin-top: 0px;
+    }
   }
   .sub-heading{
     font-family: $mainFont;
@@ -19,12 +23,19 @@
     letter-spacing: 0.52px;
     color: $mainBlue;
     text-transform: uppercase;
+    margin: 0;
   }
   .long-heading{
     font-size: 42px;
+    @media screen and (max-width: 768px){
+      font-size: 26px;
+    }
   }
   .medium-heading{
     font-size: 60px;
+    @media screen and (max-width: 768px){
+      font-size: 30px;
+    }
   }
 
   h4{
@@ -43,6 +54,9 @@
     letter-spacing: 1.1px;
     color: #525f7f;
     margin-bottom: 20px;
+    @media screen and (max-width: 768px){
+      font-size: 14px;
+    }
   }
 
   ul{
@@ -75,6 +89,9 @@
   .deal-box{
     display: flex;
     margin-bottom: 75px;
+    @media screen and (max-width: 992px){
+      flex-direction: column;
+    }
     .brand-image{
       width: 250px;
       display: flex;
@@ -82,9 +99,20 @@
       align-items: center;
       padding: 0 40px;
       flex-direction: column;
+      @media screen and (max-width: 992px){
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+      }
       img{
         max-width: 200px;
         max-height: 100px;
+        @media screen and (max-width: 992px){
+          padding: 0 20px;
+          max-width: 160px;
+          max-height: 80px;
+        }
       }
     }
 
