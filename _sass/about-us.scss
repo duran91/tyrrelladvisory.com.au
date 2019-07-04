@@ -47,3 +47,57 @@
   }
  
 }
+
+.about-us-header{
+  position: relative;
+  height: 500px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.25);
+
+  .background-image{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .transparent-filter{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(to top,rgba(0,0,0,.9), rgba(255, 0, 0, 0)); 
+    z-index: 2;
+  }
+
+  .header-content{
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    bottom: 0px;
+  }
+  h1{
+    font-family: $mainFont;
+    font-size: 82px;
+    font-weight: 600;
+    letter-spacing: 0.52px;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+
+  h4{
+    font-family: $mainFont;
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 0.52px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    line-height: 1.5;
+  }
+
+}
