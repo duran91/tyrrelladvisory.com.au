@@ -9,10 +9,13 @@ $(function() {
   })
 
   $(document).ready(function(){
-    $('#nav-icon1').click(function(){
-      $(this).toggleClass('open');
-    });
+    $(".navbar-toggler").on("click", function(){
+      console.log("test")
+      $('#nav-icon1').toggleClass('open');
+    })
   });
+
+
 
   $(".parent-mobile-link").on("click", function(){
     console.log("made it")

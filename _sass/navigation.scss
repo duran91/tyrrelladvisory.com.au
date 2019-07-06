@@ -157,3 +157,27 @@
   }
 }
 
+
+.burger-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px!important;
+}
+
+.burger-helper{
+  display: none;
+  position: relative;
+  color: white;
+  margin: 0px;
+  font-family: $mainFont;
+  margin-right: 10px;
+  font-size: 12px; 
+  font-weight: 400;
+  letter-spacing: 1.2;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 1024px){
+    display: block
+  }
+}
