@@ -117,3 +117,43 @@
     }
   }
 }
+
+.navigation-mobile{
+  display: none;
+  width: 100%;
+  @media screen and (max-width: 992px){
+    display: block;
+  }
+
+  .mobile-dropdown-box{
+    border-bottom: 2px solid white;
+    margin-bottom: -2px;
+  }
+
+  .main-link{
+    border-bottom: 2px solid white;
+  }
+
+  .mobile-link{
+    width: 100%;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    justify-content: space-between;
+    p{
+      color: $mainBlue;
+      font-family: $mainFont;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.31px;  
+      margin: 0px;
+    }
+  }
+
+  .nested{
+    background-color: #fff;
+    border-bottom-color: #f9f9f9;
+  }
+}
+

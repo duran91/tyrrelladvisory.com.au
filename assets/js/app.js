@@ -7,4 +7,15 @@ $(function() {
     var title = $("#background-toggle-title");
     title.text() == "Read More" ? title.text("Read Less") : title.text("Read More");
   })
+
+  $(document).ready(function(){
+    $('#nav-icon1').click(function(){
+      $(this).toggleClass('open');
+    });
+  });
+
+  $(".parent-mobile-link").on("click", function(){
+    console.log("made it")
+    $(this).siblings(".mobile-dropdown").toggleClass("hidden");
+  })
 });
