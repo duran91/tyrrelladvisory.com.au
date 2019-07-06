@@ -15,6 +15,17 @@ $(function() {
     })
   });
 
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      loop:true,
+      margin:0,
+      nav: false,
+      dots: true,
+      dotsEach: true,
+      items: 1,
+    });
+  });
+
 
 
   $(".parent-mobile-link").on("click", function(){
