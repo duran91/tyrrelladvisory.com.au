@@ -19,11 +19,11 @@ title: Tyrrell Advisory
       <h1>Contact</h1>
       <div class="row">
         <div class="col-lg-7">
-          <form class="contact-form" action="">
-            <input placeholder="Name" type="text" id="form-name">
-            <input placeholder="Email" type="email" id="form-email">
-            <textarea placeholder="Message" name="" id="form-message" rows="9"></textarea>
-            <input class="form-submit" type="submit">
+          <form id="email-form" class="contact-form" action="https://formspree.io/david@tyrrelladvisory.com.au" method="POST">
+            <input name="name" placeholder="Name" type="text" id="form-name">
+            <input name="_replyto" placeholder="Email" type="email" id="form-email">
+            <textarea name="comments" placeholder="Message" name="" id="form-message" rows="9"></textarea>
+            <input class="form-submit" value="Send" type="submit">
           </form>
         </div>
         <div class="col-md-5">
