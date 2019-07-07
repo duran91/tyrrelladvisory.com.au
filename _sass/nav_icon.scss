@@ -16,6 +16,8 @@
   transition: .5s ease-in-out;
   cursor: pointer;
   border: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
 }
 
 #nav-icon1 span {
