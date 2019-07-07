@@ -23,6 +23,8 @@ $(function() {
       dots: true,
       dotsEach: true,
       items: 1,
+      autoplay: true,
+      autoplayTimeout: 5000,
     });
   });
 
