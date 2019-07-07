@@ -79,7 +79,7 @@
   }
 
   .home-call-to-action{
-    border: 1px solid #fff;
+    border: none;
     margin-top: 50px;
     display: inline-block;
     align-items: center;
@@ -178,6 +178,9 @@
   height: 620px;
   display: flex;
   align-items: center;
+  @media screen and (max-width: 992px){
+    height: 500px;
+  }
 
   .background-slider{
     position: absolute;
@@ -193,6 +196,11 @@
 
 .header-box{
   position: relative;
+  height: 620px;
+  background-color: $mainBlue;
+  @media screen and (max-width: 992px){
+    height: 500px;
+  }
 }
 
 .owl-dots{
@@ -201,6 +209,9 @@
   transform: rotate(90deg);
   top: 250px;
   outline: none;
+  @media screen and (max-width: 992px){
+    display: none;
+  }
 
 }
 

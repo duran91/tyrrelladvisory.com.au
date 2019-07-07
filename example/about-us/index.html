@@ -7,9 +7,15 @@ title: Tyrrell Advisory
     <div class="transparent-background"></div>
     <div class="container">
       <div class="breadcrumb-box">
-        <a href="{{site.base_url}}/" class="links">HOME</a>
+        <a itemprop="item" href="{{site.base_url}}/" class="links">
+          <span itemprop="name">Home</span>
+          <meta itemprop="position" count="1">
+        </a>
         <img src="/assets/img/breadcrumb-arrow.svg" alt="">
-        <p class="current-page">ABOUT US</p>
+        <a itemprop="item" href="{{site.base_url}}/about-us/" class="links">
+          <span class="current-page" itemprop="name">About Us</span>
+          <meta itemprop="position" count="2">
+        </a>
       </div>
     </div>
   </div>
@@ -26,7 +32,8 @@ title: Tyrrell Advisory
 
 <div class="about-us-content">
   <div class="container">
-    <p>Tyrrell Advisory are M&A specialists with a strong track record from over 25 years’ experience advising clients (mainly
+    <p>Tyrrell Advisory are M&A specialists with a strong track record from over 25 years’ experience advising clients
+      (mainly
       private business owners) and managing transactions across a broad range of industries and jurisdictions.</p>
     <p>We are relationship-focused and provide owners of private businesses with superior quality and objective
       financial and strategic advice in relation to:</p>

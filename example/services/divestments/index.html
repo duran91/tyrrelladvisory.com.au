@@ -6,11 +6,20 @@ title: Tyrrell Advisory
 <div class="breadcrumbs">
   <div class="container">
     <div class="breadcrumb-box">
-      <a href="{{site.base_url}}/" class="links">Home</a>
+      <a itemprop="item" href="{{site.base_url}}/" class="links">
+        <span itemprop="name">Home</span>
+        <meta itemprop="position" count="1">
+      </a>
       <img src="/assets/img/breadcrumb-arrow.svg" alt="">
-      <a href="{{site.base_url}}/services/" class="links">Services</a>
+      <a itemprop="item" href="{{site.base_url}}/services/" class="links">
+        <span class="current-page" itemprop="name">Services</span>
+        <meta itemprop="position" count="2">
+      </a>
       <img src="/assets/img/breadcrumb-arrow.svg" alt="">
-      <p class="current-page">DIVESTMENTS</p>
+      <a itemprop="item" href="{{site.base_url}}/services/divestments" class="links">
+        <span class="current-page" itemprop="name">Divestments</span>
+        <meta itemprop="position" count="3">
+      </a>
     </div>
   </div>
 </div>
@@ -132,7 +141,9 @@ title: Tyrrell Advisory
         </div>
         <div class="content">
           <p class="deal-title">Divestments of Businesses in Receivership</p>
-          <p class="deal-content">Advised Receivers and Managers on the divestment of businesses including Nylex Limited (listed industrial company), Ruskin Industries Limited (listed plastics company), Brashs, Dimmeys and Forges, Colac Stockfeeds and 21 Pizza Hut franchises</p>
+          <p class="deal-content">Advised Receivers and Managers on the divestment of businesses including Nylex Limited
+            (listed industrial company), Ruskin Industries Limited (listed plastics company), Brashs, Dimmeys and
+            Forges, Colac Stockfeeds and 21 Pizza Hut franchises</p>
         </div>
       </div>
     </div>

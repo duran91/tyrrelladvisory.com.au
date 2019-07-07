@@ -6,11 +6,19 @@ title: Tyrrell Advisory
 <div class="breadcrumbs">
   <div class="container">
     <div class="breadcrumb-box">
-      <a href="{{site.base_url}}/" class="links">Home</a>
+      <a itemprop="item" href="{{site.base_url}}/" class="links">
+        <span itemprop="name">Home</span>
+        <meta itemprop="position" count="1">
+      </a>
       <img src="/assets/img/breadcrumb-arrow.svg" alt="">
-      <a href="{{site.base_url}}/about-us/" class="links">About us</a>
-      <img src="/assets/img/breadcrumb-arrow.svg" alt="">
-      <p class="current-page">Key People</p>
+      <a itemprop="item" href="{{site.base_url}}/about-us/" class="links">
+        <span class="current-page" itemprop="name">About Us</span>
+        <meta itemprop="position" count="2">
+      </a>
+      <a itemprop="item" href="{{site.base_url}}/about-us/key-people/" class="links">
+        <span class="current-page" itemprop="name">Key People</span>
+        <meta itemprop="position" count="3">
+      </a>
     </div>
   </div>
 </div>
